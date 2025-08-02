@@ -1,5 +1,5 @@
-import ChatView from '@/Components/Custom/ChatView'
-import CodeView from '@/Components/Custom/CodeView'
+import ChatView from '@/components/Custom/ChatView'
+import CodeView from '@/components/Custom/CodeView'
 import React from 'react'
 
 function page() {

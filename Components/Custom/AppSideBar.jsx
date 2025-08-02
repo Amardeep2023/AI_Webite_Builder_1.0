@@ -10,7 +10,7 @@ import {
 import { Button } from '../ui/button'
 import { MessageCircleCodeIcon } from 'lucide-react'
 import WorkSpaceHist from './WorkSpaceHist'
-import   Footer  from '@/Components/Custom/Footer'
+import   Footer  from '@/components/Custom/Footer'
 
 function AppSideBar() {
   return (

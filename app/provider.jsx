@@ -1,14 +1,14 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import { ThemeProvider as NextThemesProvider } from "next-themes"
-import Header from '@/Components/Custom/Header'
+import Header from '@/components/Custom/Header'
 import { MessagesContext } from '@/context/MessagesContext'
 import { UserDetailContext } from '@/context/UserDetailContext'
 import { GoogleOAuthProvider } from '@react-oauth/google'
 import { useConvex } from 'convex/react'
 import { api } from '@/convex/_generated/api'
 import { SidebarProvider, useSidebar } from "@/components/ui/sidebar";
-import AppSideBar from "@/Components/Custom/AppSideBar";
+import AppSideBar from "@/components/Custom/AppSideBar";
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import { ActionContext } from '@/context/ActionContext'
 import { SigninCOntext } from '@/context/SignupContext'

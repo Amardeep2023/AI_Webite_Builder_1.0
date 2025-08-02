@@ -18,7 +18,7 @@ import { Loader2Icon } from "lucide-react";
 import { countToken } from "./ChatView";
 
 import { UserDetailContext } from "@/context/UserDetailContext";
-import SandpackPrev from "@/Components/Custom/SandpackPrev";
+import SandpackPrev from "@/components/Custom/SandpackPrev";
 import { ActionContext } from "@/context/ActionContext";
 
 

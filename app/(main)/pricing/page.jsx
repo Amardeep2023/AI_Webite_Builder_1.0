@@ -3,7 +3,7 @@ import Lookup from '@/data/Lookup'
 import React from 'react'
 import { UserDetailContext } from '@/context/UserDetailContext';
 import { useContext } from 'react';
-import PricingModel from '@/Components/Custom/PricingModel';
+import PricingModel from '@/components/Custom/PricingModel';
 import Colors from '@/data/Colors';
 
 function pricing() {
