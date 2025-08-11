@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  AI Website Builder
 
-## Getting Started
+An **AI-powered platform** built with **Next.js** that allows users to generate **fully functional website code** and **instant live previews** based on simple text prompts.  
+Includes **secure authentication**, **payment processing**, and **real-time database management**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **AI-Powered Code Generation** – Generates complete React based code from user prompts.
+- **Live Preview** – Instantly displays the generated website in a preview window.
+- **Secure Authentication** – Integrated **Google Auth** for user sign-in/sign-up.
+- **Payment Gateway** – **PayPal integration** for subscriptions and one-time payments.
+- **Real-Time Database** – **Convex DB** for storing user projects, prompt history, and preferences.
+- **Responsive UI** – Optimized for performance and cross-device compatibility.
+- **Serverless Architecture** – Fast and scalable with minimal backend maintenance.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  Tech Stack
 
-## Learn More
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Next.js API Routes, Convex DB (serverless)
+- **Authentication:** Google OAuth
+- **Payments:** PayPal API
+- **AI Integration:** (Gemini API)
+- **Deployment:** Vercel (or your deployment platform)
 
-To learn more about Next.js, take a look at the following resources:
+---
+<img width="1280" height="616" alt="Screenshot (157)" src="https://github.com/user-attachments/assets/285337d0-9080-4777-8f1b-4c73f04e5767" />
+<img width="1280" height="626" alt="Screenshot (158)" src="https://github.com/user-attachments/assets/fea9ac89-b678-4d2d-b856-f2b4caa851d0" />
+<img width="1280" height="611" alt="Screenshot (159)" src="https://github.com/user-attachments/assets/d4569490-80a1-4998-8497-eb77c5468f23" />
+<img width="1280" height="624" alt="Screenshot (160)" src="https://github.com/user-attachments/assets/f5c18df2-400a-4d34-b24f-034085420aca" />
+<img width="1280" height="631" alt="Screenshot (161)" src="https://github.com/user-attachments/assets/0f6f512c-356d-4267-997b-5f045f7c740c" />
+<img width="1280" height="610" alt="Screenshot (162)" src="https://github.com/user-attachments/assets/f52ce3c9-3851-4853-adc3-dab2b5369d1c" />
+<img width="1260" height="640" alt="Screenshot (163)" src="https://github.com/user-attachments/assets/dd925543-a7de-4dcb-b4c3-037bade82ae2" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
